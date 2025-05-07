@@ -9,7 +9,7 @@ import csv
 from collections import Counter
 
 # Load YOLOv8 model
-model = YOLO('/Desktop/parking-management-system/parking-management-system/best.pt')
+model = YOLO('best.pt')
 
 # Plate save directory
 save_dir = 'plates'
